@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Snake</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <h1>Vanilla Snake</h1>
+      <p>
+        An app written in
+        <span style="color: rgb(5, 89, 0); font-weight: bold"
+          >vanilla HTML, CSS and Javascript
+        </span>
+        - because, well; why not?
+      </p>
+      <p>🏵️ 🐍 🏵️  </p>
+    </header>
+    <div class="container">
+      <div>
+        <div class="toolbar">
+          <p id="score">SCORE: 1</p>
+          <p id="game-over"></p>
+          <p id="highscore">HIGHSCORE: 0</p>
+        </div>
+        <canvas
+          id="canvas"
+          height="400"
+          width="400"
+          style="background-color: rgb(0, 0, 0)"
+        >
+        </canvas>
+        <div id="game-info" style="color: black">
+          <button id="play" onclick="loop()">
+            PLAY
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Made by
+        <a id="github-link" target="_blank" href="https://github.com/matanio"
+          >Matanio</a
+        >
+        🤙
+      </p>
+    </footer>
+  </body>
+  <script type="text/javascript" src="snake.js"></script>
+  <script type="text/javascript" src="food.js"></script>
+  <script type="text/javascript" src="draw.js"></script>
+</html>

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 75%;
+  margin: 10px auto auto auto;
+  min-height: 70vh;
+}
+header {
+  gap: 1rem;
+  text-align: center;
+  background-color: rgb(0, 163, 14);
+  height: 16rem;
+  align-content: center;
+  display: grid;
+  color: rgb(255, 255, 255);
+  padding: 2rem;
+}
+header h1 {
+  margin: 0;
+  padding: 0.75rem;
+  font-size: 3.75rem;
+}
+footer {
+  width: 100%;
+  color: black;
+  background-color: rgb(242, 242, 242);
+  display: grid;
+  align-content: center;
+  text-align: center;
+  height: 8rem;
+  margin-top: 0.75rem;
+}
+#github-link {
+  color: rgb(0, 174, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#github-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+.toolbar {
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  background-color: rgb(242, 242, 242);
+  padding: 0 0.5rem 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+}
+
+#play {
+  font-weight: bold;
+  text-decoration: none;
+  background: #ffffff;
+  border: 2px solid rgb(50, 106, 226);
+  border-radius: 0.375rem;  
+  font-size: 1.25rem;
+  padding: 0.75rem;
+  color: rgb(50, 106, 226);
+  transition: 0.3s;
+}
+#play:hover {
+  color: white;
+  background-color: rgb(50, 106, 226);
+}
+
+#game-over {
+  color: red;
+  font-weight: bolder;
+}
