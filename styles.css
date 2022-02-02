@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 body {
+  background-color: #f0f0f0;
   font-family: "Inter", sans-serif;
   margin: 0;
 }
@@ -8,7 +9,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 75%;
   margin: 10px auto auto auto;
   min-height: 70vh;
 }
@@ -50,7 +50,10 @@ footer {
 .toolbar {
   border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
-  background-color: rgb(242, 242, 242);
+  border-top: solid rgb(196, 196, 196) 2px;
+  border-left: solid rgb(196, 196, 196) 2px;
+  border-right: solid rgb(196, 196, 196) 2px;
+  background-color: white;
   padding: 0 0.5rem 0 0.5rem;
   display: flex;
   justify-content: space-between;
@@ -59,6 +62,7 @@ footer {
   line-height: 1.25rem;
   font-weight: bold;
   letter-spacing: 0.025em;
+  margin: -1px;
 }
 
 #play {
@@ -72,6 +76,10 @@ footer {
   color: rgb(50, 106, 226);
   transition: 0.3s;
 }
+
+canvas {
+  width: 100%;
+}
 #play:hover {
   color: white;
   background-color: rgb(50, 106, 226);
@@ -80,4 +88,7 @@ footer {
 #game-over {
   color: red;
   font-weight: bolder;
+}
+.game {
+  width: 60%;
 }
