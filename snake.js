@@ -3,7 +3,7 @@ class Snake {
     this.x = 0;
     this.y = 0;
     this.size = size;
-    // Moves write to start off with
+    // Moves right to start off with
     this.xVelocity;
     this.yVelocity;
     this.currentDir;
